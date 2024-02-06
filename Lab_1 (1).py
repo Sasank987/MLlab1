@@ -6,7 +6,7 @@ def number_of_pairs(num_list, target_number):
             if num_list[i] + num_list[j] == target_number:
                 count += 1
     return count
-num_list = [2, 7, 4, 1, 3, 6]
+num_list = [3,6,1,8,4,9]
 target_number = 10
 result = number_of_pairs(num_list, target_number)
 print(f"Number of pairs with the sum {target_number} is : {result} pairs")
@@ -18,7 +18,7 @@ def calculate(list):
     else:
         return max(list) - min (list)
         
-list = [5, 3, 8, 1, 0, 4]
+list = [1,4,7,3,9,3]
 Result = calculate(list)
 print(f"The result or range of the numbers is :{Result}")
 
