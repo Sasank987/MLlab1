@@ -7,7 +7,7 @@ def number_of_pairs(num_list, target_number):
                 count += 1
     return count
 num_list = [3,6,1,8,4,9]
-target_number = 10
+target_number = 12
 result = number_of_pairs(num_list, target_number)
 print(f"Number of pairs with the sum {target_number} is : {result} pairs")
 
